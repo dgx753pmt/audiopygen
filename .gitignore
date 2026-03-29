@@ -1,7 +1,36 @@
-# Environments
+# Virtual Environment
+.venv/
 venv/
-env/
+ENV/
 .env
-.venv
+.secrets
+
+# Python Bytecode & Cache
 __pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
 *.pyc
+
+# Generated Audio Outputs
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Model Weights / Large Data
+# (If you download pre-trained models, ignore the folder you store them in)
+models/
+data/raw/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
